@@ -15,6 +15,7 @@ import {
 } from "react-native"
 import AddTodo from "./components/AddTodo"
 import Header from "./components/Header"
+
 import TodoItem from "./components/TodoItem"
 
 export default function App() {
@@ -73,8 +74,11 @@ const styles = StyleSheet.create({
   },
   content: {
     padding: 40,
+
+    flex: 1,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   },
 })
